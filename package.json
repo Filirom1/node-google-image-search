@@ -1,0 +1,32 @@
+{
+  "author": "filirom1 <filirom1@gmail.com>",
+  "name": "google-image-search",
+  "description": "Download Images from Google Image in nodejs",
+  "version": "0.1.0",
+  "main": "lib/search.js",
+  "bin": {
+    "google-image-search": "bin/google-image-search"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Filirom1/node-google-image-search.git
+  },
+   "licenses": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT"
+  },
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "cheerio": "0.4.x",
+    "request": "2.9.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+    "scripts": {
+    "test": "vows test/* --spec"
+  }
+}

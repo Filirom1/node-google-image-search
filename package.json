@@ -10,7 +10,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com:Filirom1/node-google-image-search.git
+    "url": "git@github.com:Filirom1/node-google-image-search.git"
   },
    "licenses": {
     "type": "MIT",
